@@ -1,2 +1,2 @@
 # codingmodule
-new JavaScript and python modules
+NEW JavaScript HTML CSS and PYTHON PROJECTS
