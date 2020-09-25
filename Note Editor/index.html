@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ace editor cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"
+      integrity="sha512-GZ1RIgZaSc8rnco/8CXfRdCpDxRCphenIiZ2ztLy3XQfCbQUSCuk8IudvNHxkRA3oUg6q0qejgN/qqyG1duv5Q=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- importing our css file -->
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML IDE</title>
+  </head>
+  <!--   calling a function when page loads -->
+  <body onload="ready()">
+    <div class="container">
+      <div id="editor"></div>
+      <iframe frameborder="0" id="iframe"></iframe>
+    </div>
+    <!-- importing our JavaScript File -->
+    <script src="index.js"></script>
+  </body>
+</html>
